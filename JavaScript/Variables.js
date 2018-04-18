@@ -26,7 +26,7 @@ var usuario={
     "apellido":"Cajilema",
     cedula:'kate',
     edad:28,
-    
+
     imprimir:function () {
         console.log(this.nombre+''+this.apellido+''+this.edad);
     }
