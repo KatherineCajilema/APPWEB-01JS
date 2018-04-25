@@ -13,12 +13,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Variables.js" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Variables.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaScript/Variables.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+            <state relative-caret-position="297">
+              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clases.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02TypeScript/clases.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clases.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02TypeScript/clases.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-907">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -27,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/.gitgnore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -38,6 +56,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -50,6 +69,9 @@
         <option value="$PROJECT_DIR$/JavaScript/.gitignore" />
         <option value="$PROJECT_DIR$/.gitgnore" />
         <option value="$PROJECT_DIR$/JavaScript/Variables.js" />
+        <option value="$PROJECT_DIR$/02 TypeScript/clases.ts" />
+        <option value="$PROJECT_DIR$/02TypeScript/clases.js" />
+        <option value="$PROJECT_DIR$/02TypeScript/clases.ts" />
       </list>
     </option>
   </component>
@@ -59,18 +81,17 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1254" />
-    <option name="y" value="598" />
-    <option name="width" value="958" />
-    <option name="height" value="779" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="344" />
+    <option name="y" value="456" />
+    <option name="width" value="1868" />
+    <option name="height" value="921" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -81,12 +102,24 @@
             <path>
               <item name="APPWEB-01JS" type="b2602c69:ProjectViewProjectNode" />
               <item name="APPWEB-01JS" type="462c0819:PsiDirectoryNode" />
+              <item name="02TypeScript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="APPWEB-01JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPWEB-01JS" type="462c0819:PsiDirectoryNode" />
+              <item name="02TypeScript" type="462c0819:PsiDirectoryNode" />
+              <item name="clases.ts" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="APPWEB-01JS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="APPWEB-01JS" type="462c0819:PsiDirectoryNode" />
               <item name="JavaScript" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -97,8 +130,8 @@
     <property name="node.js.selected.package.prettier" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -122,47 +155,54 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524070909294</updated>
-      <workItem from="1524070913301" duration="3746000" />
+      <workItem from="1524070913301" duration="3860000" />
+      <workItem from="1524672319960" duration="3912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3746000" />
+    <option name="totallyTimeSpent" value="7772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="344" y="456" width="1868" height="921" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49958017" visible="true" weight="0.09335937" />
+      <window_info anchor="bottom" id="TypeScript" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846154" visible="true" weight="0.12794432" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.5004198" side_tool="true" visible="true" weight="0.09335937" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.17291667" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" sideWeight="0.50153846" side_tool="true" visible="true" weight="0.12794432" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2769744" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/02TypeScript/clases.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JavaScript/.gitignore">
+    <entry file="file://$PROJECT_DIR$/JavaScript/Variables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="1036">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -173,10 +213,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/JavaScript/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.gitgnore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaScript/Variables.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="297">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02TypeScript/clases.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02TypeScript/clases.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
         </state>
       </provider>
     </entry>
