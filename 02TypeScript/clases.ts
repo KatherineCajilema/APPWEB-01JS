@@ -52,14 +52,21 @@ class UsuarioDos {
     }
 }
 
-console.log(Kath2.imprimirUsuario(saludo:'hola Soy Goku'));
-let Carla: UsurioTres={
-    nombre:'Kath',edad:28
-}
-interface UsuarioTres{
-    nombre:string;
-    casado?:boolean;//hacer opcional un dato
-    
+console.log(Kath2.imprimirUsuario('hola Soy Goku'));
+let carla: UsuarioTres = {
+    nombre: 'ADrian',
+    edad: 28,
+    imprimir: function (saludo?: string) {
+        return '';
+    }
+};
+
+interface UsuarioTres {
+    nombre: string;
+    casado?: boolean;
+    edad: number;
+
+    imprimir(saludo?: string): string;
 }
 
 

@@ -52,9 +52,13 @@ var UsuarioDos = /** @class */ (function () {
     };
     return UsuarioDos;
 }());
-console.log(Kath2.imprimirUsuario(saludo, 'hola Soy Goku'));
-var Carla = {
-    nombre: 'Kath', edad: 28
+console.log(Kath2.imprimirUsuario('hola Soy Goku'));
+var carla = {
+    nombre: 'ADrian',
+    edad: 28,
+    imprimir: function (saludo) {
+        return '';
+    }
 };
 var Kath2 = new UsuarioDos(nombre, 'Kate', casado, false, edad, 22);
 console.log(Kath2);
